@@ -51,6 +51,14 @@ tempDiv.innerHTML = `
 `;
 document.body.appendChild(tempDiv.children[0]);
 
+var triangleUp = document.createElement('div');
+triangleUp.innerHTML = `
+<div class="waifu-show">
+	<i class= "fui-triangle-up"></i>
+</div>
+`;
+document.body.appendChild(triangleUp.children[0]);
+
 var path = getPath();
 addElement('link', path + 'assets/waifu.css');
 addElement('script', path + 'assets/jquery.min.js')
